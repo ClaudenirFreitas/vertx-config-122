@@ -1,6 +1,4 @@
-# vertx-config-122
-
-To validate issue 122 (https://github.com/vert-x3/vertx-config/issues/122)
+= Vertx-config-122
 
 image:https://img.shields.io/badge/vert.x-4.0.0-purple.svg[link="https://vertx.io"]
 
@@ -8,14 +6,19 @@ This application was generated using http://start.vertx.io
 
 == Building
 
+To launch your tests:
+```
+./gradlew clean test
+```
+
 To package your application:
 ```
-make docker-build
+./gradlew clean assemble
 ```
 
 To run your application:
 ```
-make docker-run
+./gradlew clean run
 ```
 
 == Help
@@ -24,3 +27,5 @@ make docker-run
 * https://stackoverflow.com/questions/tagged/vert.x?sort=newest&pageSize=15[Vert.x Stack Overflow]
 * https://groups.google.com/forum/?fromgroups#!forum/vertx[Vert.x User Group]
 * https://gitter.im/eclipse-vertx/vertx-users[Vert.x Gitter]
+
+
