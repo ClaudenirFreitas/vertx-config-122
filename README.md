@@ -2,7 +2,7 @@
 
 To validate issue 122 (https://github.com/vert-x3/vertx-config/issues/122)
 
-image:https://img.shields.io/badge/vert.x-4.0.0-purple.svg[link="https://vertx.io"]
+image:https://img.shields.io/badge/vert.x-4.0.0.CR1-purple.svg[link="https://vertx.io"]
 
 This application was generated using http://start.vertx.io
 
